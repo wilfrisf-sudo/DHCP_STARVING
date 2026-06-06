@@ -10,7 +10,6 @@ Conocer las vulnerabilidades y peligros reales de los conmutadores de red al pro
 
 -------------------------------------------------------------------------------------------------------------------------
 
-
 ## 2. Objetivo del Script
 Generar e inyectar de forma asíncrona un flujo masivo de tramas DHCP Discover utilizando direcciones MAC de origen aleatorias. Al mismo tiempo, el script utiliza hilos de fondo (Multithreading) para escuchar de forma activa el medio físico, interceptar las respuestas DHCP Offer provenientes del servidor legítimo y responder inmediatamente con un DHCP Request, consolidando el secuestro físico y lógico de las direcciones del segmento.
 
