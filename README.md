@@ -29,7 +29,6 @@ El script admite y manipula las siguientes variables y configuraciones:
 
 -------------------------------------------------------------------------------------------------------------------------
 
-
 ## 3. Documentación del Funcionamiento del Script
 El programa ejecuta un flujo paralelo mediante hilos de ejecución estructurados con la función `sendp()` y un analizador de fondo `sniff()`. El script arma en memoria tramas combinando la encapsulación UDP (`sport=68`, `dport=67`) exigida por el estándar y las cabeceras dinámicas BOOTP/DHCP mapeadas en un diccionario local.
 
@@ -76,12 +75,24 @@ SWI1# write memory
 
 ### 6.1. Demostración en Video
 En el siguiente enlace se encuentra el video demostrativo (máx. 5 minutos) donde se visualiza la topología con mi nombre y matrícula, la fecha y hora, la ejecución del ataque y la aplicación de la contramedida:  
-🎥 **[Pegar aquí el enlace de YouTube correspondiente a este ataque]**
+
+https://www.youtube.com/watch?v=fhUzdaql5iI&list=PLGfNWxn7Di3BhsEEifmTJKXP4_U9fla7P&index=3
 
 ### 6.2. Capturas de Pantalla
 
 #### A. Diseño de la Topología en GNS3
-#### B. Registro de DHCP Asignados (Antes del ataque)
-#### C. Ejecución del Script
-#### D. Agotamiento de Direcciones (Pool saturado)
-#### E. Aplicación de Contramedidas (Puerto en modo Err-Disable)
+
+<img width="700" height="546" alt="imagen" src="https://github.com/user-attachments/assets/52bd48ae-1a54-4d97-b72c-be3938a440f9" />
+
+#### B. Ejecución del Script
+
+<img width="672" height="279" alt="imagen" src="https://github.com/user-attachments/assets/bf410163-24e6-4f31-96f5-535c1b49db4b" />
+
+#### C. Agotamiento de Direcciones (Pool saturado)
+
+<img width="643" height="403" alt="imagen" src="https://github.com/user-attachments/assets/a2724ea6-c96a-4442-9f29-47042a077c7b" />
+
+#### D. Aplicación de Contramedidas
+
+<img width="619" height="248" alt="imagen" src="https://github.com/user-attachments/assets/646251ae-73f3-4981-b112-d4160a65fa72" />
+
