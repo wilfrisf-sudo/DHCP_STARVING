@@ -74,7 +74,7 @@ SWI1# write memory
 ## 6. Evidencias
 
 ### 6.1. Demostración en Video
-En el siguiente enlace se encuentra el video demostrativo (máx. 5 minutos) donde se visualiza la topología con mi nombre y matrícula, la fecha y hora, la ejecución del ataque y la aplicación de la contramedida:  
+En el siguiente enlace se encuentra el video demostrativo donde se visualiza la topología con la ejecución del ataque y la aplicación de la contramedida:  
 
 https://www.youtube.com/watch?v=fhUzdaql5iI&list=PLGfNWxn7Di3BhsEEifmTJKXP4_U9fla7P&index=3
 
